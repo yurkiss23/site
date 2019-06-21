@@ -8,15 +8,13 @@ body{
 
 .header a.loc{
     color: gold;
-    /* padding: 5px 10px; */
     font-size: 40px;
     text-decoration: none;
-    /* border-radius: 5px; */
 }
 
-.header h1{
-    font-size: 50px;
-    align-content: center;
+.header a.loc:hover{
+    font-size: 42px;
+    background-color: aquamarine;
 }
 
 .header p.title{
@@ -24,6 +22,14 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     color: blue;
+    text-align: center;
+}
+
+.header p.phone{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: gold;
     text-align: center;
 }
 
