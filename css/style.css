@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: darkgray;
 }
 
 .header{
@@ -8,16 +8,18 @@ body{
 
 .header a.loc{
     color: gold;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
 }
 
 .header a.loc:hover{
-    font-size: 42px;
+    font-size: 35px;
     background-color: aquamarine;
+    padding: 2px;
+    border-radius: 2px;
 }
 
-.header p.title{
+.header #title{
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -25,18 +27,19 @@ body{
     text-align: center;
 }
 
-.header p.phone{
-    font-size: 30px;
+.header #phone{
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     color: gold;
-    text-align: center;
 }
 
 .home-images img{
-    border: cadetblue solid 5px;
-    border-radius: 5px;
-    height: 300px;
+    /* padding: 6px;
+    background: #ff0000; */
+    /* border: cadetblue solid 5px; */
+    /* border-radius: 5px; */
+    width: 100%;
 }
 
 a.mybtn{
@@ -45,4 +48,23 @@ a.mybtn{
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.footer{
+    background-color: bisque;
+    width: 100%;
+    position: fixed;
+}
+
+.footer a.contacts{
+    color: gold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer a.contacts:hover{
+    font-size: 22px;
+    background-color: chocolate;
+    padding: 2px;
+    border-radius: 2px;
 }
